@@ -3,7 +3,7 @@
 Here you will find demos of various things I have released on GitHub. I'll try
 and put as much stuff here as I can, but life's a busy thing you know. Also, to
 be fair, most of the code I produce these days belongs to my employer - so can't
-share it here. Nevertheless, over time you will see a pretty eclectic mix of
+share any of that. Nevertheless, over time you will see a pretty eclectic mix of
 random projects dumped here.
 
 _Enjoy!_
@@ -15,9 +15,9 @@ _Enjoy!_
 
 ## Karmaware
 
-Go [here](https://pete-rai.github.io/karmaware) to read about the Karmaware software tag.
+Go [here](https://pete-rai.github.io/karmaware) to read about the [Karmaware](https://pete-rai.github.io/karmaware) software tag.
 Please do think about using this tag in your own software and [Tweet](https://twitter.com/)
-about it if you do using #karmaware.
+about it if you do using _#karmaware_.
 
 ## jQuery SlideIn
 

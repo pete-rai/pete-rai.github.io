@@ -8,4 +8,6 @@ Maybe give something to that homeless guy you sometimes pass in town. Why not
 say hello to that old lady that lives alone on your street. If you have some spare cash,
 you could even give someone the [gift of sight](https://donate.sightsavers.org/smxpatron/global/donate.html).
 
+If you do, share your good karma on [Twitter](https://twitter.com/) using _#karmaware_.
+
 Good Karma - [Pete Rai](https://pete-rai.github.io)
