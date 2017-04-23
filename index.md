@@ -31,6 +31,22 @@ A simple to use, boilerplate template for a new Alexa skill for the [Amazon Echo
 
 To find out more check out the main [GitHub page](https://github.com/pete-rai/alexa-skill-boilerplate).
 
+# Alexa Skill: Sky Plus
+
+A connection between [Amazon Echo](https://en.wikipedia.org/wiki/Amazon_Echo) and [Sky Plus](https://en.wikipedia.org/wiki/Sky%2B) in the UK. Using this project you can create
+a new Alexa skill which can respond to a range of requests to control you SkyPlus box. It
+does this by posting key sequences directly to the box from the AWS cloud.
+
+Here are the types of utterances this code can recognise and respond to. In each case, the response comes after the channel change. Many more combinations than this are possible using this code.
+
+| Utterance | Response |
+| --- | --- |
+| Show me wildlife programs | This is Tiger Trail on the Discover Channel. It started 12 minutes ago. |
+| Put on a game show | You're watching Family Fortunes on Challenge. It's been on for 22 minutes.  |
+| Switch over to BBC 1 | Now tuned to Eastenders on BBC 1. It kicked off 14 minutes ago. |
+
+To find out more check out the main [GitHub page](https://github.com/pete-rai/alexa-skill-skyplus).
+
 ## p5.js Bubbles
 
 Coming soon...
