@@ -31,7 +31,7 @@ A simple to use, boilerplate template for a new Alexa skill for the [Amazon Echo
 
 To find out more check out the main [GitHub page](https://github.com/pete-rai/alexa-skill-boilerplate).
 
-# Alexa Skill: Sky Plus
+## Alexa Skill: Sky Plus
 
 A connection between [Amazon Echo](https://en.wikipedia.org/wiki/Amazon_Echo) and [Sky Plus](https://en.wikipedia.org/wiki/Sky%2B) in the UK. Using this project you can create
 a new Alexa skill which can respond to a range of requests to control you SkyPlus box. It
