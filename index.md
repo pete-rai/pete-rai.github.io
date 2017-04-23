@@ -23,7 +23,13 @@ about it if you do using _#karmaware_.
 
 A slide-in panel for jQueryUI that works from all four sides. The panel overlays your main page and can be slid in on a mouse click or mouse hover. There are lots of other options for customisation such as grab handle, slide speed, opacity, peeking-in etc. The plugin is excellent for housing user options which are only for occasional use, especially overlaid onto whole screen UIs that demand the entire screen real estate.
 
-To find out more check out the main [GitHub page](https://github.com/pete-rai/jquery-slidein) or try this [live demo](https://pete-rai.github.io/jquery-slidein/sample-slidein-full.html) or this [simpler demo](https://pete-rai.github.io/jquery-slidein/sample-slidein-basic.html)
+To find out more check out the main [GitHub page](https://github.com/pete-rai/jquery-slidein) or try this [live demo](https://pete-rai.github.io/jquery-slidein/sample-slidein-full.html) or this [simpler demo](https://pete-rai.github.io/jquery-slidein/sample-slidein-basic.html).
+
+## Alexa Skill : Boilerplate
+
+A simple to use, boilerplate template for a new Alexa skill for the [Amazon Echo](https://en.wikipedia.org/wiki/Amazon_Echo). It's not really useful in its literal form, as it's real purpose is to show people how easy creating a custom skill can be. It basically allows your Echo to respond to utterances like "How does a duck go?" and Echo responds "Quack, Quack". It does this for a range of animals. It also responds to "Roll a Dice".
+
+To find out more check out the main [GitHub page](https://github.com/pete-rai/alexa-skill-boilerplate).
 
 ## p5.js Bubbles
 
