@@ -1,10 +1,10 @@
 # Karmaware
 
 So you're using software that someone created and released free-of-charge
-with the _Karmaware_ tag. That means you are now honour-bound to spread
+with the _Karmaware_ tag. That means you are now honour-bound to spread some
 _good karma_ to someone else.
 
-Maybe give something to that homeless guy you pass on the street sometimes. Why not
+Maybe give something to that homeless guy you sometimes pass in town. Why not
 say hello to that old lady that lives alone on your street. If you have some spare cash,
 you could even give someone the [gift of sight](https://donate.sightsavers.org/smxpatron/global/donate.html).
 
