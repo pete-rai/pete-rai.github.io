@@ -19,6 +19,10 @@ Go [here](https://pete-rai.github.io/karmaware) to read about the [Karmaware](ht
 Please do think about using this tag in your own software and [Tweet](https://twitter.com/)
 about it if you do using _#karmaware_.
 
+## Tech Idea Generator
+
+Are you stuck for an idea for a new project? No worries! There is an endless supply of great ideas [here](https://pete-rai.github.io/tech-ideas/idea.html).
+
 ## jQuery SlideIn
 
 A slide-in panel for jQueryUI that works from all four sides. The panel overlays your main page and can be slid in on a mouse click or mouse hover. There are lots of other options for customisation such as grab handle, slide speed, opacity, peeking-in etc. The plugin is excellent for housing user options which are only for occasional use, especially overlaid onto whole screen UIs that demand the entire screen real estate.
