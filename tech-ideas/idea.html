@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patent Brainstorm</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker:400" rel="stylesheet" type="text/css">
+    <style type="text/css">
+
+    html, body
+    {
+        font-family: Permanent Marker;
+        text-align: center;
+    }
+
+    div#board
+    {
+        margin-top: 20px;
+        z-index: 1;
+    }
+
+    div#text, a, a:visited
+    {
+        color: grey;
+        z-index: 2;
+        letter-spacing: 2px;
+    }
+
+    div#text h1
+    {
+        color: blue;
+        padding-top: 110px;
+        font-size: 2.8em;
+    }
+
+    div#text h2
+    {
+        margin-top: -550px;
+    }
+
+    div#text h3
+    {
+        padding-top: 120px;
+        letter-spacing: 1px;
+    }
+
+    </style>
+    <script type="text/javascript">
+
+      function any (array) { return array [Math.floor (Math.random () * array.length)]; }
+
+      var intro  = ["No one is yet trying", "There is novelty in", "There is potential in", "What about", "Have a look into", "Trying reading up on", "Lets whiteboard some", "What about a brainstorm about", "The next big thing will be", "Why is no one doing", "It's worth investing in"];
+      var start  = ["multiplexed", "temporal", "statistical", "spatial", "bayesian", "euclidian", "quantum", "neural", "deep", "filtered", "binary", "postive", "directed", "inertial", "neo", "unrestricted", "automatic", "cached", "virtual", "stochastic", "ontological", "adaptive"];
+      var middle = ["encoder", "bitrate", "bandwidth", "data", "packet", "wire-level", "traffic", "network", "feedback", "frame", "codec", "demographic", "video", "corpus", "protocol", "text", "compute", "storage", "communication", "location"];
+      var end    = ["optimisation", "analysis", "differencing", "quadrature", "algorithms", "transforms", "forecasting", "predictions", "coupling", "smoothing", "shaping", "analytics", "buffering", "delivery", "sampling", "prevention", "linguistics", "schemas", "platforms", "heuristics", "tunneling", "monitoring", "topologies"];
+
+      window.onload = function ()
+      {
+          document.getElementById ("lead").innerHTML = any (intro);
+          document.getElementById ("idea").innerHTML = any (start) + " " + any (middle) + " " + any (end);;
+      }
+
+    </script>
+  </head>
+  <body>
+    <div id="board">
+      <img src="whiteboard.png" alt="" />
+    </div>
+    <div id="text">
+      <h2 id="lead"></h2>
+      <h1 id="idea"></h1>
+      <h3>hit <a href="javascript:void(0)" onclick="location.reload()">refresh</a> for another option</h3>
+    </div>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-97871418-1', 'auto');
+        ga('send', 'pageview');
+    </script>     
+  </body>
+</html>
