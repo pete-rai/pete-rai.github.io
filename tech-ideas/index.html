@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Random Tech Idea</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
-    <style type="text/css">
+<head>
+  <title>Random Tech Idea</title>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  <style type="text/css">
 
     html
     {
@@ -18,14 +18,14 @@
         font-family: 'Rock Salt', cursive;
         font-size: 100%;
         color: lightcyan;
-        letter-spacing: 0.4em;
+        letter-spacing: 0.3em;
     }
 
     h1
     {
         font-size: 3.2em;
-        margin-bottom: 1.8em;
-        margin-top: 1.8em;
+        margin-bottom: 1.6em;
+        margin-top: 1.6em;
     }
 
     h2
@@ -52,36 +52,46 @@
         outline: none;
     }
 
-    </style>
-    <script type="text/javascript">
+    aside
+    {
+        position: absolute;
+        right: 0;
+        padding: 30px;
+        font-size: 0.7em;
+    }
 
-      function any (array) { return array [Math.floor (Math.random () * array.length)]; }
+  </style>
+  <script type="text/javascript">
 
-      var intro  = ["No one is yet trying", "There is novelty in", "There is potential in", "What about", "Have a look into", "Trying reading up on", "Lets whiteboard some", "What about a brainstorm about", "The next big thing will be", "Why is no one doing", "It's worth investing in"];
-      var start  = ["multiplexed", "temporal", "statistical", "spatial", "bayesian", "euclidian", "quantum", "neural", "deep", "filtered", "binary", "postive", "directed", "inertial", "neo", "unrestricted", "automatic", "cached", "virtual", "stochastic", "ontological", "adaptive"];
-      var middle = ["encoder", "bitrate", "bandwidth", "data", "packet", "wire-level", "traffic", "network", "feedback", "frame", "codec", "demographic", "video", "corpus", "protocol", "text", "compute", "storage", "communication", "location"];
-      var end    = ["optimisation", "analysis", "differencing", "quadrature", "algorithms", "transforms", "forecasting", "predictions", "coupling", "smoothing", "shaping", "analytics", "buffering", "delivery", "sampling", "prevention", "linguistics", "schemas", "platforms", "heuristics", "tunneling", "monitoring", "topologies"];
+    function any (array) { return array [Math.floor (Math.random () * array.length)]; }
 
-      window.onload = function ()
-      {
-          document.getElementById ("lead").innerHTML = any (intro);
-          document.getElementById ("idea").innerHTML = any (start) + " " + any (middle) + " " + any (end);;
-      }
+    var intro  = ["No one is yet trying", "There is novelty in", "There is potential in", "What about", "Have a look into", "Trying reading up on", "Lets whiteboard some", "What about a brainstorm about", "The next big thing will be", "Why is no one doing", "It's worth investing in"];
+    var start  = ["multiplexed", "temporal", "statistical", "spatial", "bayesian", "euclidian", "quantum", "neural", "deep", "filtered", "binary", "postive", "directed", "inertial", "neo", "unrestricted", "automatic", "cached", "virtual", "stochastic", "ontological", "adaptive"];
+    var middle = ["encoder", "bitrate", "bandwidth", "data", "packet", "wire-level", "traffic", "network", "feedback", "frame", "codec", "demographic", "video", "corpus", "protocol", "text", "compute", "storage", "communication", "location"];
+    var end    = ["optimisation", "analysis", "differencing", "quadrature", "algorithms", "transforms", "forecasting", "predictions", "coupling", "smoothing", "shaping", "analytics", "buffering", "delivery", "sampling", "prevention", "linguistics", "schemas", "platforms", "heuristics", "tunneling", "monitoring", "topologies"];
 
-    </script>
-  </head>
-  <body>
-      <h2 id="lead"></h2>
-      <h1 id="idea"></h1>
-      <h3>hit <a href="javascript:void(0)" onclick="location.reload()">refresh</a> for another option</h3>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    window.onload = function ()
+    {
+        document.getElementById ("lead").innerHTML = any (intro);
+        document.getElementById ("idea").innerHTML = any (start) + " " + any (middle) + " " + any (end);;
+    }
 
-        ga('create', 'UA-97871418-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-  </body>
+  </script>
+</head>
+<body>
+  <h2 id="lead">&nbsp;</h2>
+  <h1 id="idea">&nbsp;</h1>
+  <h3>hit <a href="javascript:void(0)" onclick="location.reload()">refresh</a> for another idea</h3>
+  <aside>
+    From <a href="http://www.rai.org.uk">Pete Rai</a>
+  </aside>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-97871418-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
 </html>
