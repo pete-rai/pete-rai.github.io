@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Patent Brainstorm</title>
+    <title>Random Tech Idea</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker:400" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <style type="text/css">
 
-    html, body
+    html
     {
-        font-family: Permanent Marker;
+        background: url(/tech-ideas/back.jpeg) no-repeat center center fixed;
+        background-size: cover;
         text-align: center;
     }
 
-    div#board
+    body
     {
-        margin-top: 20px;
-        z-index: 1;
+        font-family: 'Rock Salt', cursive;
+        font-size: 100%;
+        color: lightcyan;
+        letter-spacing: 0.4em;
     }
 
-    div#text, a, a:visited
+    h1
     {
-        color: grey;
-        z-index: 2;
-        letter-spacing: 2px;
+        font-size: 3.2em;
+        margin-bottom: 1.8em;
+        margin-top: 1.8em;
     }
 
-    div#text h1
+    h2
     {
-        color: blue;
-        padding-top: 110px;
-        font-size: 2.8em;
+        font-size: 1.8em;
+        margin-top: 4em;
     }
 
-    div#text h2
+    h3
     {
-        margin-top: -550px;
+        font-size: 1em;
     }
 
-    div#text h3
+    a,
+    a:hover,
+    a:active,
+    a:focus
     {
-        padding-top: 120px;
-        letter-spacing: 1px;
+        color: lightcyan;
+    }
+
+    a:focus
+    {
+        outline: none;
     }
 
     </style>
@@ -62,14 +71,9 @@
     </script>
   </head>
   <body>
-    <div id="board">
-      <img src="whiteboard.png" alt="" />
-    </div>
-    <div id="text">
       <h2 id="lead"></h2>
       <h1 id="idea"></h1>
       <h3>hit <a href="javascript:void(0)" onclick="location.reload()">refresh</a> for another option</h3>
-    </div>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -78,6 +82,6 @@
 
         ga('create', 'UA-97871418-1', 'auto');
         ga('send', 'pageview');
-    </script>     
+    </script>
   </body>
 </html>
