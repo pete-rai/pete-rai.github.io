@@ -8,7 +8,7 @@ Welcome to this archive! _You've found the Wisden of Mornington Crescent._
 
 Here you will find a detailed record of _every single game of Mornington Crescent that has ever been played_, since its inception in late August 1978 to the start of 2020. The archive scope is all games played in tournaments, leagues, clubs and societies. This is pretty much the whole shebang for the game history - barring personal games, pub games and things like random games played on [radio shows](https://en.wikipedia.org/wiki/I%27m_Sorry_I_Haven%27t_a_Clue) and such.
 
-> If you don't care about all the details and just want to explore the data, then you can use the [Game Explorer](#) site for that.
+> If you don't care about all the details and just want to explore the data, then you can use the [Game Explorer](https://pete-rai.github.io/mornington-crescent-game-archive/) site for that.
 
 ## The Opportunity
 
